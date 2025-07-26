@@ -1,0 +1,63 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  padding: 12%;
+  font-size: 55px;
+}
+
+.newsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5ef;
+  padding: 5% 10% 5% 15%;
+  gap: 20%;
+}
+
+.txtContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.txtContainer > h2 {
+  padding: 0 0 5%;
+}
+
+.painContainer > img {
+  width: 100%;
+}
+
+.imgContainer > div {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  padding: 10%;
+}
+
+.imgContainer img {
+  width: 25%;
+}
+
+.temoinContainer {
+    background-color: black;
+    color: white;
+    
+    
+}
+
+.commentContainer{
+    display: flex;
+    align-items: center;
+   
+    justify-content: center;
+    padding: 15%;
+    gap: 5%;
+}
+
